@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 100%;
+    background: linear-gradient( to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(25, 25, 93);
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 42px;
+    margin-top:27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(133, 126, 126);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:rgb(236, 233, 233);
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(16, 16, 16);
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height:40px;
+    background: rgb(33, 33, 66);
+    border: 2px solid rgb(33, 33, 66);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:hover{
+    color: black;
+    cursor: pointer;
+    background-color: rgba(61, 61, 91, 0.936);
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    margin-top: 65px;
+}
+
+.university{
+    width: 42%;
+    float: right;
+
+}
+
+.short{
+    display:inline-block;
+    width: 300px;
+    
+    
+}
+
+.first-heading{
+    color: rgba(183, 164, 54, 0.925);
+    background-color: rgb(25, 25, 93);
+    text-align: center;
+    padding: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.first-heading:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+    background-color: rgba(61, 61, 91, 0.936);
+}
+
+.s-courses{
+    font-size: 18px;  
+    width: fit-content;
+}
+
+.undergraduate{
+    display:inline-block;
+    width: 400px;
+    vertical-align: top;
+}
+.second-heading{
+    color: rgba(183, 164, 54, 0.925);
+    background-color: rgb(25, 25, 93);
+    text-align: center;
+    display: inline-block;
+    padding: 8px;
+    
+
+}
+
+.second-heading:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+    background-color: rgba(61, 61, 91, 0.936);
+}
+.u-programmes{
+    display: inline-block;
+    font-size: 18px;
+    width: fit-content;
+}
+
+.third-heading{
+    color: rgba(183, 164, 54, 0.925);
+    background-color: rgb(25, 25, 93);
+    text-align: center;
+    padding: 8px;
+    display: inline-block;
+    margin-left: 25px;
+    width: fit-content;
+}
+.third-heading:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+    background-color: rgba(61, 61, 91, 0.936);
+}
+
+.m-programmes{
+    margin-left: 25px;
+    font-size: 18px;
+    width: fit-content;
+}
+
+.fourth-heading{
+    color: rgba(183, 164, 54, 0.925);
+    background-color: rgb(25, 25, 93);
+    text-align: center;
+    padding: 8px;
+    display: inline-block;
+    margin-left: 780px ;
+    width: fit-content;
+}
+.fourth-heading:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+    background-color: rgba(61, 61, 91, 0.936);
+}
+
+.p-programmes{
+    display: inline-block;
+    margin-left: 780px ;
+    font-size: 18px;
+    width: fit-content;
+}
