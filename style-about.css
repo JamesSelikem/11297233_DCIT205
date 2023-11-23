@@ -2,11 +2,21 @@
     margin: 0;
     padding: 0;
 }
-
+.header{
+    background-color: #5c5b5b;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+    margin-right: 25px;
+    border-radius: 35px;
+}
 
 .main{
     width: 100%;
-    background: linear-gradient( to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(istockphoto-1440160796-170667a.webp);
+    background: linear-gradient( to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(images/lecturer.webp);
     background-position: center;
     background-size: cover;
     height: 75vh;
@@ -19,7 +29,7 @@
 }
 
 .icon{
-    width: 200px;
+    width: 250px;
     float: left;
     height: 70px;
 }
@@ -150,7 +160,7 @@ ul li a:hover{
     width:48px;
 }
 
-.w-1,.g-1,.c-1,.o-1{
+.w-1,.g-1,.c-1,.o-1,.s-1,.oc-1,.d-1,.u-1{
     font-size: 40px;
     font-family: Arial;
     text-decoration:underline;
@@ -177,10 +187,18 @@ ul li a:hover{
 }
 
 
-.commitment{
-    width: 585px;
+.commitment,.organization,.community{
+    width: 560px;
     display: inline-block;
     margin-left: 50px;
+    vertical-align: top;
+}
+.apart, .distance{
+    width: 560px;
+    display: inline-block;
+    margin-right: 19px;
+    vertical-align: top;
+    float: right;
 }
 
 .vertical{
@@ -195,8 +213,28 @@ ul li a:hover{
     border-radius: 8px;
 }
 
-.c-2{
+.c-2, .s-2, .s-3{
     font-size: 25px;
     color: rgb(25, 25, 93);
 }
 
+.laptop-boy{
+    display: inline-block;
+    width: 400px;
+    margin-left: 45px;
+}
+
+.group{
+    display: inline-block;
+    width: 380px;
+    margin-left: 45px;
+    margin-top: 32px;
+}
+
+.distance-learning{
+    display: inline-block;
+    width: 40px;
+    margin-top: 35px;
+    float: right;
+    margin-left: 15px;
+}

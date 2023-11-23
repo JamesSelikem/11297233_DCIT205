@@ -3,10 +3,12 @@
     padding: 0;
 }
 
-
+.header{
+    position: fixed;
+}
 .main{
     width: 100%;
-    background: linear-gradient( to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg);
+    background: linear-gradient( to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(images/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg);
     background-position: center;
     background-size: cover;
     height: 75vh;
@@ -223,3 +225,4 @@ ul li a:hover{
     font-size: 18px;
     width: fit-content;
 }
+
