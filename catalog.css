@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #5c5b5b;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+    margin-right: 25px;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient( to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(images/under_grad_main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    margin-top: 68px;
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 250px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(25, 25, 93);
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 42px;
+    margin-top:27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(133, 126, 126);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:rgb(236, 233, 233);
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    margin-top: 75px;
+    margin-left: 105px;
+    font-size: larger;
+    font-family: Arial;
+}
+
+.home-catalog{
+    color: rgba(183, 164, 54, 0.925);
+}
+
+.university{
+    width: 42%;
+    float: right;
+
+}
+
+
+.catalog-1{
+    display: inline-block;
+    width: 380px;
+    border: #5c5b5b;
+    margin-left: 25px;
+    margin-top: 15px;
+    vertical-align: top;
+}
+
+.explore{
+    margin-left: 25px;
+}
+.p-1,{
+    font-size: 23px;
+    text-align: left;
+    color: rgb(25, 25, 93);
+}
+.p-2:hover, .m-1:hover, .graduate:hover{
+    background-color: rgb(25, 25, 93);
+    color: #5c5b5b;
+    cursor: pointer;
+}
+.p-2{
+    background-color: #5c5b5b6c;
+    font-size: 25px;
+    color: rgb(25, 25, 93);
+    transition: 0.4s ease-in-out;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 68px; 
+}
+
+.m-1{background-color: #5c5b5b6c;
+    font-size: 25px;
+    color: rgb(25, 25, 93);
+    transition: 0.4s ease-in-out;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 68px;}
+
+ .graduate{
+        background-color: #5c5b5b6c;
+        font-size: 25px;
+        color: rgb(25, 25, 93);
+        transition: 0.4s ease-in-out;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 68px; 
+    }
+.cs{
+    padding-left: 18px;
+}
+
+.catalog-2{
+    display: inline-block;
+    width: 380px;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-right: 25px;
+    vertical-align: top;
+}
+.g-1{
+    margin-left: 460px;
+    font-size: 42px;
+}
+
+.catalog-3{
+    display: inline-block;
+    width: 380px;
+    border: #5c5b5b;
+    margin-top: 15px;
+}
+
+
+.programs{
+    display: inline-block;
+    width: 600px;  
+    margin-left: 313px;
+}
+
+.kids{
+    opacity: 88%;
+    width: 60%;
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 20%;
+    margin-right: 25%;
+}
+
+.internship{
+    width: 75%;
+    margin-left: 15%;
+    background-color: #5c5b5b17;
+}
+.i-content{
+    text-align: justify;
+    color: rgb(25, 25, 93);
+}
+.i-1{
+    margin-left: 18%;
+    color: rgb(25, 25, 93);
+}
+.a-1, .a-2{
+    margin-left: 38%;
+    color: rgb(25, 25, 93);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    margin: 5px 0;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  .social-icons a:hover {
+    color: #ffd700; 
+  }
