@@ -1,128 +1,169 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="style-event.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/
+		libs/font-awesome/6.4.2/css/all.min.css">
     <title>Computer science Department</title>
 </head>
 <body>
     <div class="main">
 			<div class="navbar">
-		<header class = "header">		
 				<div class="icon">
-					<h2 class="logo">Department of computer science</h2>
+							<h2 class="logo">Department of computer science</h2>
 				</div>
-		
+
 				<div class="menu">
 					<ul>
-							<li><a href="#">HOME</a></li>
-							<li><a href="#">ABOUT</a></li>
+							<li><a href="homepage.html">HOME</a></li>
+							<li><a href="about.html">ABOUT</a></li>
 							<li><a href="#">CATALOG</a></li>
 							<li><a href="#">RESOURCES</a></li>
-							<li><a href="#">EVENTS</a></li>
+							<li><a href="events.html">EVENTS</a></li>
 							<li><a href="#">CONTACT</a></li>
 							<li><a href="#"></a></li>
 							<li><a href="#"></a></li>
 							<li><a href="#"></a></li>
 					</ul>
 				</div>
-			
-	    </header>			
 
+				<div class="search">
+					<input class="srch" type="search" name="" placeholder="Type To text">
+					<a href="#"> <button class="btn">Search</button></a>
+				</div>
 			</div>
 			<div class="content">
-				<h1>EVENTS </h1>
-				<h3 class="home-events">Home &#8594 Events</h3>
-					
+				<h1>HOME<span>&#8594</span>EVENTS</h1>
 			</div>
 	
 	</div>
-	<section class="upcoming-events">
-		<h1>Stay Connected with us</h1>
-		<p class="par-2">
+
+<div class="events-container">
+    <button id="toggleButton">EVENTS</button>
+
+	<div class="events-columns">
+
+		<div class="row" id="firstSet">
+			<section class="upcoming-events">
+			<h1>Stay Connected with us</h1>
+			<p class="par-2">
 			View upcoming events.
-		</p>
+			</p>
 
-	<div class="upcoming-events">
-		<h2 class="w-1">Stay Connected with us</h2>
-		<p class="event-statement">
-			View upcoming events.
-		</p>
+			<div class="row">
+				<div class="program-col">
+						<h3>Tech Talk Series</h3>
+						<p>
+							Date: 30th November, 2023<br>
+							Time: 2:30pm<br>
+							Location: Computer science department-University of Ghana.<br>
+							<Strong>Join us for an insightful session with industry experts as they 
+							discuss the latest trends and innovations in the world of technology.</Strong>	
+						</p>
+				</div>
+			<div class="program-col">
+						<h3>Hackathon 2023</h3>
+						<p>
+							Date: 1st December, 2023<br>
+							Time: 2:30pm<br>
+							Location: Computer science department-University of Ghana.<br>
+							<strong>Unleash your coding skills and creativity at our annual hackathon.
+							 Teams will compete to solve real-world problems and showcase their projects to a panel of judges.
+							</strong>
+						</p>
+			</div>
+			<div class="program-col">
+						<h3>Get Involved</h3>
+						<p>
+							Join our vibrant community of learners, researchers, and innovators.
+							 Participate in hackathons, attend tech talks, and collaborate on 
+							  groundbreaking projects that push the boundaries of what's possible.
+						</p>
+			</div>
+		</div>
+			</section>
 	</div>
 
-	<div class="first-event">
-		<h2 class="tech-talk">Tech Talk Series</h2>	
-		<p class="tech-details">
-			Date: 30th November, 2023<br>
-			Time: 2:30pm<br>
-			Location: Computer science department-University of Ghana.<br>
-			<Strong>Join us for an insightful session with industry experts as they 
-			discuss the latest trends and innovations in the world of technology.</Strong>
-		</p>
+		<div class="row hidden" id="secondSet">
+			<section class="past-events">
+				<h1>Past Events</h1>
+				<p class="par-2">
+				View past events.
+				</p>
+
+			<div class="program-col">
+			<h3>AI Workshop</h3>
+			<p>
+			Date: 21st January,2023 <br>
+			<strong>Our AI workshop provided hands-on experience in machine learning and 
+			artificial intelligence. Participants gained practical skills and insights into
+			 the applications of AI in various industries.</strong>
+			</p>
+			</div>
+
+			<div class="program-col">
+			<h3>CodeCamp 2022</h3>
+			<p>
+			Date: 16th February,2023 <br>
+			<strong>CodeCamp was a two-day coding extravaganza where students delved into coding challenges,
+ 			learned new programming languages, and collaborated on exciting projects.</strong>
+			</p>
+			</div>
+		</div>
 	</div>
+</div>
 
-	<div class="talk-image">
-		<img class="talk-jpg" src="images/talk.jpg">
-	</div>
-
-	<div class="second-event">
-		<h2 class="hackathon">Hackathon 2023</h2>	
-		<p class="hackathon-details">
-			Date: 1st December, 2023<br>
-			Time: 2:30pm<br>
-			Location: Computer science department-University of Ghana.<br>
-			<strong>Unleash your coding skills and creativity at our annual hackathon.
- 			Teams will compete to solve real-world problems and showcase their projects to a panel of judges.
-			</strong>
-		</p>
-
-	</div>
-
-	<div class="hack-image">
-		<img class="hackathon" src="images/hack.webp">
-	</div>
-
-	<div class="past-events">
-		<h2 class="w-2">Past Events</h2>
-		<p class="past-statement">
-			View past events.
-		</p>
-	</div>
-
-	<div class="third-event">
-		<h2 class="AI-event">AI Workshop</h2>
-		<p class="AI-details">
-		Date: 21st January,2023 <br>
-		<strong>Our AI workshop provided hands-on experience in machine learning and 
-		artificial intelligence. Participants gained practical skills and insights into
- 		the applications of AI in various industries.</strong>
-		</p>
-	</div>
-
+<script src="events-script.js"></script>
+</section>
+ <section>
 	<div class="AI-image">
 		<img class="AI-workshop" src="images/AI.jpg">
 	</div>
+</section>
 
-	<div class="fourth-event">
-		<h2 class="camp-event">CodeCamp 2022</h2>
-		<p class="camp-details">
-		Date: 16th February,2023 <br>
-		<strong>CodeCamp was a two-day coding extravaganza where students delved into coding challenges,
- 		learned new programming languages, and collaborated on exciting projects.</strong>
-		</p>
-	</div>
-
-	<div class="AI-image">
-		<img class="AI-workshop" src="images/camp.jpg">
-	</div>
-
-	<footer>
-		<div class="footer-content">
-		  <p>&copy; 2023 University of Ghana. All rights reserved.</p>
-		  <p>Address: University of Ghana, Legon</p>
-		  <p>Email: dcs@ug.edu.gh</p>
-		  <div class="social-icons">
-			<a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-			<a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-			<a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-		  </div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Academics</h4>
+					<ul class="u-f">
+						<li><a href="#">Undergraduate Courses</a></li>
+						<li><a href="#">Graduate Courses(MPhil Computer Science)</a></li>
+						<li><a href="#">Graduate Courses(MSc Computer Science)</a></li>
+						<li><a href="#">Academic calender</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Admissions</h4>
+					<ul class="u-f">
+						<li><a href="#">Undergraduate</a></li>
+						<li><a href="#">Graduate</a></li>
+						<li><a href="#">International Students</a></li>
+						<li><a href="#">Entry Requirements</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4> About The Department</h4>
+					<ul class="u-f">
+						<li><a href="#">Introducing DCS</a></li>
+						<li><a href="#">Head of Department's office</a></li>
+						<li><a href="#">Faculty</a></li>
+						<li><a href="#">Events</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-col">
+				<h4>follow us</h4>
+				<div class="social-links">
+					<ul class="u-f">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin-i"></i></a>
+					</ul>
+				</div>
+			</div>
 		</div>
-	  </footer>
+	</footer>
+</body>
+</html>
