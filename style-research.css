@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-.header{
-    position: fixed;
+.uni-logo{
+    width: 100%;
 }
 .main{
     width: 100%;
@@ -239,20 +239,22 @@ h1 {
 }
 
 .par-3 {
-    font-size: 1.2em; /* Adjust the font size as needed */
-    max-width: 600px; /* Limit the width of the text for readability */
+    font-size: 1.2em; 
+    max-width: 600px; 
     margin: 0 auto; 
 }
 
-
-
-button {
+.hidden{
+    display: none;
+}
+.n-p {
     position: absolute;
-    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #3498db;
     color: #fff;
+    border-radius: 8px;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -268,6 +270,7 @@ button:hover {
     background-color: #333;
     color: #fff; 
     padding: 50px 0; 
+    margin-top: 25px;
 }
 
 .container {

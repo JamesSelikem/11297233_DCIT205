@@ -3,8 +3,9 @@
     padding: 0;
 }
 
-.header{
-    position: fixed;
+
+.uni-logo{
+    width: 100%;
 }
 .main{
     width: 100%;

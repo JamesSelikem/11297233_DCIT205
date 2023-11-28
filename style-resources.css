@@ -3,12 +3,16 @@
     padding: 0;
 }
 
+.uni-logo{
+    width: 100%;
+}
+
 .header{
     position: fixed;
 }
 .main{
     width: 100%;
-    background: linear-gradient( to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(images/interaction.jpg);
+    background: linear-gradient( to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(images/classroom.webp);
     background-position: center;
     background-size: cover;
     height: 65vh;
